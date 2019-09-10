@@ -1,0 +1,34 @@
+{
+    "name": "escsrl/requestparams",
+    "type": "library",
+    "description": "Simple class for request parameters handling",
+    "keywords": ["request"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessandro Bellanda",
+            "email": "a.bellanda@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Esc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Esc\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*",
+        "symfony/http-foundation": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
