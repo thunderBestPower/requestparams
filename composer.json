@@ -2,7 +2,9 @@
     "name": "escsrl/requestparams",
     "type": "library",
     "description": "Simple class for request parameters handling",
-    "keywords": ["request"],
+    "keywords": [
+        "request"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -30,5 +32,6 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "version": "2.0.0"
 }
