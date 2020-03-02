@@ -25,7 +25,7 @@ class RequestParams
         $requestParams->set('limit', $rowsPerPage > 0 ? $rowsPerPage : null);
 
         $page = (int)$request->get('page');
-        $requestParams->set('offset', ($page > 0 ? $page - 1 : 0) * ($rowsPerPage ? 1 : $rowsPerPage));
+        $requestParams->set('offset', ($page > 0 ? $page - 1 : 0) * ($rowsPerPage ?: 0));
 
         return $requestParams;
     }
