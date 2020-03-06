@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/escsrl/requestparams/compare/v2.0.1...v2.1.0) (2020-03-06)
+
+
+### Features
+
+* added filters string check and unit tests ([b53a21b](https://github.com/escsrl/requestparams/commit/b53a21bcd538f231ca22961598eea9e0e5ffdbd7))
+
 ### [2.0.1](https://github.com/escsrl/requestparams/compare/v2.0.0...v2.0.1) (2020-03-02)
 
 
