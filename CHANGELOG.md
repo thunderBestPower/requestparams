@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/escsrl/requestparams/compare/v2.1.0...v2.2.0) (2020-12-09)
+
+
+### Features
+
+* Add Group ([49d3f80](https://github.com/escsrl/requestparams/commit/49d3f80d7ca9c8bd898ad7d57b1f0da42079c3ed))
+
 ## [2.1.0](https://github.com/escsrl/requestparams/compare/v2.0.1...v2.1.0) (2020-03-06)
 
 
