@@ -31,6 +31,9 @@ class RequestParams
         $page = (int)$request->get('page');
         $requestParams->set('offset', ($page > 0 ? $page - 1 : 0) * ($rowsPerPage ?: 0));
 
+        $group = $request->get('group');
+        $requestParams->set('group', $group);
+
         return $requestParams;
     }
 }
