@@ -1,5 +1,5 @@
 {
-    "name": "escsrl/requestparams",
+    "name": "bluewebmv/requestparams",
     "type": "library",
     "description": "Simple class for request parameters handling",
     "keywords": [
@@ -13,24 +13,19 @@
         },
         {
             "name": "Mattia Vitali",
-            "email": "mattia.vitali@blue-web.it"
+            "email": "vitali.mattia@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Esc\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Esc\\Tests\\": "tests"
+            "BlueWeb\\": "src/"
         }
     },
     "require": {
-        "php": "^7.3",
+        "php": "^8.0",
         "ext-json": "*",
         "phpspec/prophecy": "^1.10",
-        "symfony/http-foundation": "^5.1"
+        "symfony/http-foundation": "^6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
@@ -38,5 +33,5 @@
     "config": {
         "sort-packages": true
     },
-    "version": "3.0.0"
+    "version": "4.0.0"
 }

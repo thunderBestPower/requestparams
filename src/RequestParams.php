@@ -1,6 +1,6 @@
 <?php
 
-namespace Esc;
+namespace BlueWeb;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
