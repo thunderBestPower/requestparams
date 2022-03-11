@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/escsrl/requestparams/compare/v3.0.0...v4.0.0) (2022-03-11)
+
+
+### Features
+
+* aggiornato namespace e upgrade alla versione php 8.0 ([47bccc6](https://github.com/escsrl/requestparams/commit/47bccc6ad4c79a3cf21fdb69266b1e0071157b4a))
+
 ## [3.0.0](https://github.com/escsrl/requestparams/compare/v2.2.0...v3.0.0) (2020-12-09)
 
 ## [2.2.0](https://github.com/escsrl/requestparams/compare/v2.1.0...v2.2.0) (2020-12-09)
